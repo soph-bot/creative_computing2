@@ -1,0 +1,47 @@
+body {background-color: white}
+
+#rectangle {
+      width: 400px;
+      height: 560px;
+      background: #100a1b;
+    }
+
+p {
+  color:#a04641;
+}
+
+p1 {
+	color:#e3e0cf;
+}
+
+.allthetext {
+	width: 400px;
+    height: 560px;
+	display:grid;
+	
+	grid-template-areas:
+	". . . . . . . . . . . . . ."
+	". . . . . . . . . . . . . ."
+	". . . a1 a1 a1 a1 . . . . ."
+	". . . . . . . . . . . . . ."
+	". . . . . . . . . . . . . ."
+	". . . . . . . . . . . . . ."
+	". . . . . . . . . . . . . ."
+	". . . . . . . . . . . . . ."
+	". . . . . . . . . a2 a2 a2 a2"
+	". . . . . . . . . a2 a2 a2 a2"
+	". . . a3 a3 a3 a3 . . . . "
+	". . . . . . . . . . . . . ."
+	". . . . . . . . . . . . . ."
+	". . . . . . . . . . . . . .";
+
+}
+#child1{
+	grid-area:a1;
+}
+#child2{
+	grid-area:a2;
+}
+#child3{
+	grid-area:a3;
+}

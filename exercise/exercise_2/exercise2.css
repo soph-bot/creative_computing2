@@ -1,0 +1,15 @@
+.blue_text{color:blue;}
+.green_text{color:green;}
+.red_text{}
+
+#box_1{
+	width:100px;
+	margin: 0 auto 0 auto;
+	text-align:center;}
+
+#box_2{ background-color: lightblue; }
+
+#box_3:hover{
+  background-color:pink;
+  width:600px;}
+
